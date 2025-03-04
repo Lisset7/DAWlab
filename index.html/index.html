@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quesos El Chaparrito</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Quesos El Chaparrito</h1>
+        <p>El mejor sabor directo a tu mesa</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#acerca">Acerca de</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#historia">Historia</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="acerca">
+            <h2>Acerca de</h2>
+            <img src="img/queso-acerca.jpg" alt="Queso artesanal">
+            <p>Somos una empresa familiar dedicada a la producción de quesos artesanales con ingredientes 100% naturales.</p>
+        </section>
+
+        <section id="productos">
+           
+            <h2>Nuestros Productos</h2>
+            <div class="productos-grid">
+                <div class="producto">
+                    <img src="img/queso-panela.jpg" alt="Queso Panela">
+                    <p>Queso panela (1kg) - $140</p>
+                </div>
+                <div class="producto">
+                    <img src="img/queso-hebra.jpg" alt="Queso de Hebra">
+                    <p>Queso de hebra (1kg) - $150</p>
+                </div>
+                <div class="producto">
+                    <img src="img/queso-redondo.jpg" alt="Queso Redondo">
+                    <p>Queso redondo grande - $30</p>
+                </div>
+                <div class="producto">
+                    <img src="img/requeson.jpg" alt="Requesón">
+                    <p>Requesón (1kg) - $100</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="historia">
+            <h2>Historia y Curiosidades</h2>
+            <p>El queso es uno de los alimentos más antiguos del mundo, con una historia que se remonta a más de 7,000 años.</p>
+            <ul>
+                <li>Existen más de 2,000 tipos de quesos en el mundo.</li>
+                <li>El queso más caro es el "Pule", hecho con leche de burra de los Balcanes.</li>
+                <li>Francia es el país con la mayor variedad de quesos.</li>
+                <li>El queso más apestoso es el "Vieux Boulogne".</li>
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Quesos Artesanales - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
